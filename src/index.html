@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/flexboxgrid.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-8">
+                    <h1 class="heading4">ATTĒLU GALERIJA</h1>
+                </div>
+            </div>
+            <div class="row">
+                <button id="myButton" class="button">
+                    Dzēst visas bildes
+                </button>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1 class="heading1">
+                    DZĒST VISAS BILDES
+                </h1>
+                <p class="paragraph">
+                    Vai tiešām vēlies dzēst visas bildes? Šo darbību nevar atcelt.
+                </p> <br>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form>
+                            <input type="checkbox">
+                            Nejautāt vēlreiz
+                        </form>
+                    </div>
+                    <div class="col-sm-6 end-xs">
+                        <button class="button button--grey">
+                            Atcelt
+                        </button>
+                        <button class="button">
+                            Dzēst
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="gallery-image">
+                        <a href="#">
+                            <img src="assets/images/gallery1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="gallery-image">
+                        <a href="#">
+                            <img src="assets/images/gallery2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="gallery-image">
+                        <a href="#">
+                            <img src="assets/images/gallery3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="gallery-image">
+                        <a href="#">
+                            <img src="assets/images/gallery4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="gallery-image">
+                        <a href="#">
+                            <img src="assets/images/gallery5.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="gallery-image">
+                        <a href="#">
+                            <img src="assets/images/gallery6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
